@@ -1,4 +1,4 @@
-# 📚 BITCI FUTURES BOT - Dokumentasi Lengkap
+# Matic Trade Copy Trading Automatic
 
 ## Daftar Isi
 
