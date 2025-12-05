@@ -1,5 +1,7 @@
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: { 
+enabled: true 
+},
   
   modules: [
     '@nuxt/ui',
@@ -41,7 +43,7 @@ export default defineNuxtConfig({
   },
   
   devServer: {
-    host: '192.168.1.8',
+    host: '0.0.0.0',
     port: 3000 
   },
 
