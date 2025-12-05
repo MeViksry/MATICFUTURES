@@ -1,12 +1,12 @@
 export default defineNuxtConfig({
-  devtools: { 
-enabled: true 
-},
-  
+  devtools: {
+    enabled: true
+  },
+
   modules: [
     '@nuxt/ui',
     '@pinia/nuxt',
-    '@vueuse/nuxt',
+    '@vueuse/nuxt'
   ],
 
   css: ['~/assets/css/main.css'],
@@ -25,26 +25,30 @@ enabled: true
     public: {
       apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL || 'http://192.168.1.8:3001',
       wsUrl: process.env.NUXT_PUBLIC_WS_URL || 'ws://192.168.1.8:3001',
+
       binanceWsUrl: 'wss://fstream.binance.com/ws',
       okxWsUrl: 'wss://ws.okx.com:8443/ws/v5/public',
       bitgetWsUrl: 'wss://ws.bitget.com/mix/v1/stream'
     }
   },
-  
+
   app: {
     head: {
       title: 'Bitici Bot - Futures Trading',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Copy trading signals from TradingView directly to your exchange. Support Binance, OKX, and Bitget Futures with real-time execution.' }
-      ],
+        {
+          name: 'description',
+          content: 'Copy trading signals from TradingView directly to your exchange. Support Binance, OKX, and Bitget Futures with real-time execution.'
+        }
+      ]
     }
   },
-  
+
   devServer: {
     host: '0.0.0.0',
-    port: 3000 
+    port: 3000
   },
 
   pinia: {
@@ -66,5 +70,5 @@ enabled: true
     }
   ],
 
-  compatibilityDate: '2024-01-01'
+  compatibilityDate: '2025-01-01'
 })
