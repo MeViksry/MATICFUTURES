@@ -23,8 +23,8 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL || 'http://192.168.1.8:3001',
-      wsUrl: process.env.NUXT_PUBLIC_WS_URL || 'ws://192.168.1.8:3001',
+      apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL || 'http://localhost:3001',
+      wsUrl: process.env.NUXT_PUBLIC_WS_URL || 'ws://localhost:3001',
 
       binanceWsUrl: 'wss://fstream.binance.com/ws',
       okxWsUrl: 'wss://ws.okx.com:8443/ws/v5/public',
@@ -34,13 +34,12 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Bitici Bot - Futures Trading',
+      title: 'MaticTrade - Copy Trading',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
-          name: 'description',
-          content: 'Copy trading signals from TradingView directly to your exchange. Support Binance, OKX, and Bitget Futures with real-time execution.'
+          name: 'description', content: 'MaticTrade is an automated copy trading platform that uses algorithmic strategies to trade for you in real time—no manual trading or copying human traders required.'
         }
       ]
     }
