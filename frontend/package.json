@@ -11,7 +11,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-    "dependencies": {
+  "dependencies": {
     "@nuxt/ui": "latest",
     "@pinia/nuxt": "latest",
     "@vueuse/core": "latest",
@@ -19,17 +19,17 @@
     "chart.js": "latest",
     "lightweight-charts": "latest",
     "nodemailer": "latest",
-  "pinia": "latest",
-  "socket.io-client": "latest",
-  "vue-chartjs": "latest"
- },
+    "pinia": "latest",
+    "socket.io-client": "latest",
+    "vue-chartjs": "latest"
+  },
   "devDependencies": {
-  "@nuxt/devtools": "latest",
-  "@nuxtjs/color-mode": "latest",
-  "@nuxtjs/tailwindcss": "latest",
-  "@tailwindcss/forms": "latest",
-  "@tailwindcss/typography": "latest",
-  "nuxt": "latest",
-  "typescript": "latest"
- }
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/typography": "latest",
+    "nuxt": "latest",
+    "typescript": "latest"
+  }
 }
